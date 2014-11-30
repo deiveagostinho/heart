@@ -1,0 +1,40 @@
+{
+  "name": "heart",
+  "version": "1.0.0",
+  "description": "made with <3 component for React",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "component"
+  ],
+  "author": "Ju Gonçalves <github@jugoncalv.es>",
+  "license": "MIT",
+  "dependencies": {
+    "drf.colors": "^0.1.0",
+    "react": "^0.12.1",
+    "react-tools": "^0.12.1",
+    "reactify": "^0.17.1"
+  },
+  "jest": {
+    "scriptPreprocessor": "./test/preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "./node_modules/react"
+    ]
+  },
+  "devDependencies": {
+    "jest-cli": "^0.1.18"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "reactify",
+        {
+          "es6": true
+        }
+      ]
+    ]
+  }
+}

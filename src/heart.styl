@@ -1,0 +1,33 @@
+@import "/node_modules/drf.colors/lib/drf.color"
+
+.hrt
+  display inline-block
+  text-align center
+  color black
+
+  *
+    padding: 0 2px
+
+.hrt_made
+  font-weight bold
+
+.hrt_heart
+  color red
+  font-size 150%
+  line-height 1
+
+.hrt_heart--beating
+  display inline-block
+  animation hrt_animation--beating 1s linear infinite
+
+.hrt_author
+  a
+    text-decoration none
+
+@keyframes hrt_animation--beating
+  0%
+    transform scale(1.1)
+  50%
+    transform scale(0.8)
+  100%
+    transform scale(1)
