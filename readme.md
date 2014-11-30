@@ -21,6 +21,7 @@ Add it to your project
 */
 
 var React = require('react')
+  , Heart = require('made-with-heart')
 
 React.render(
   <Heart made="</>" heart="♥"/>,
