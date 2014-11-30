@@ -39,7 +39,7 @@ var Icon = React.createClass({
   render: function(){
     var _class = "hrt_heart"
 
-    _class = this.props.animation == 'beating' ?
+    _class = this.props.animation == 'hrt-beating' ?
        _class + " hrt_heart--beating" : _class + " " + this.props.animation
 
     return (
