@@ -116,6 +116,7 @@ a:hover {
 #snowman .hrt_author a {
   color: #222245;
   font-size: 200%;
+  border: none;
 }
 #music {
   font-size: 300%;
