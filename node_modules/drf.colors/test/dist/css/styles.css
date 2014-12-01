@@ -1,0 +1,64 @@
+ul {
+  border: 1px #000 solid;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  display: inline-block;
+  margin: 0;
+  width: 50%;
+  height: 50px;
+}
+.navy li:first-child {
+  background-color: #000080;
+}
+.blue li:first-child {
+  background-color: #00f;
+}
+.aqua li:first-child {
+  background-color: #0ff;
+}
+.teal li:first-child {
+  background-color: #008080;
+}
+.olive li:first-child {
+  background-color: #808000;
+}
+.green li:first-child {
+  background-color: #008000;
+}
+.lime li:first-child {
+  background-color: #0f0;
+}
+.yellow li:first-child {
+  background-color: #ff0;
+}
+.orange li:first-child {
+  background-color: #ffa500;
+}
+.red li:first-child {
+  background-color: #f00;
+}
+.maroon li:first-child {
+  background-color: #800000;
+}
+.fuchsia li:first-child {
+  background-color: #f0f;
+}
+.purple li:first-child {
+  background-color: #800080;
+}
+.silver li:first-child {
+  background-color: #c0c0c0;
+}
+.gray li:first-child {
+  background-color: #808080;
+}
+.black li:first-child {
+  background-color: #000;
+}
+.white li:first-child {
+  background-color: #fff;
+}
+

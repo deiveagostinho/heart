@@ -1,0 +1,174 @@
+.hrt {
+  display: inline-block;
+  text-align: center;
+}
+.hrt * {
+  padding: 0 0.2em;
+}
+.hrt_made {
+  font-weight: bold;
+}
+.hrt_heart {
+  color: #eb585c;
+  font-size: 150%;
+  line-height: 1;
+}
+.hrt_heart--beating {
+  display: inline-block;
+  animation: hrt_animation--beating 1s linear infinite;
+}
+.hrt_author a {
+  text-decoration: none;
+}
+@-moz-keyframes hrt_animation--beating {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes hrt_animation--beating {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-o-keyframes hrt_animation--beating {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes hrt_animation--beating {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Pompiere', sans-serif;
+}
+header,
+section,
+footer {
+  padding: 80px;
+  text-align: center;
+  font-size: 200%;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: #353d44;
+  border-bottom: 1px solid #353d44;
+}
+#heart {
+  font-size: 800%;
+  background-color: #eb585c;
+  color: #fff;
+}
+#heart .hrt_made {
+  font-weight: normal;
+}
+#heart .hrt_heart {
+  color: #fff;
+}
+#coffee {
+  font-size: 300%;
+  background-color: #353d44;
+  color: #fff;
+}
+#coffee .hrt_heart {
+  color: #77a277;
+}
+#snowman {
+  font-size: 300%;
+  background-color: #1da1cd;
+  color: #fff;
+}
+#snowman .hrt_heart {
+  color: #53ecec;
+}
+#snowman .hrt_author a {
+  color: #222245;
+  font-size: 200%;
+}
+#music {
+  font-size: 300%;
+  background-color: #fcd174;
+  color: #353d44;
+}
+#music .hrt_heart {
+  color: #353d44;
+}
+#react {
+  background-color: #3a5795;
+  color: #fff;
+  font-family: "Lucida Grande", sans-serif;
+}
+#react .hrt_heart {
+  font-size: 100%;
+  color: #9daccb;
+}
+#react a {
+  text-transform: lowercase;
+  color: #fff;
+}
+#react a:hover {
+  text-decoration: underline;
+}
+.what-is {
+  font-size: 16px;
+  background-color: #eb585c;
+  color: #fff;
+  text-align: left;
+  font-family: "Helvetica", Arial, sans-serif;
+  padding: 40px 80px;
+}
+code {
+  font-family: "Currier New", monospace;
+  color: #111;
+  background-color: #fff;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 2px;
+}
+footer {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 24px;
+  background-color: #eb585c;
+  color: #fff;
+  padding: 40px 0 0px;
+}
+#made-with-love {
+  font-family: 'Pompiere', sans-serif;
+  font-size: 100%;
+}
+#made-with-love .hrt_heart {
+  color: #fff;
+}
+
